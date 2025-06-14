@@ -1,0 +1,7 @@
+-- Insert sample consultants
+INSERT INTO public.consultants (name, specialty, rating, reviews, location, image_url, next_available, price, badges) VALUES
+('Dr. Sarah Johnson', 'Lifestyle Medicine', 4.9, 127, 'New York, NY', 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80', 'Tomorrow 2:00 PM', '$150', ARRAY['Board Certified', 'Diabetes Specialist']),
+('Dr. Michael Chen', 'Nutrition & Wellness', 4.8, 89, 'Los Angeles, CA', 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80', 'Dec 16, 10:00 AM', '$120', ARRAY['Nutrition Expert', 'Weight Management']),
+('Dr. Emily Rodriguez', 'Preventive Medicine', 4.9, 156, 'Chicago, IL', 'https://images.unsplash.com/photo-1594824475317-8e3f8e6e3e3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80', 'Dec 17, 3:30 PM', '$180', ARRAY['Heart Health', 'Hypertension']),
+('Dr. James Wilson', 'Integrative Medicine', 4.7, 203, 'Austin, TX', 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80', 'Dec 18, 1:00 PM', '$160', ARRAY['Holistic Care', 'Stress Management']),
+('Dr. Lisa Thompson', 'Functional Medicine', 4.8, 145, 'Seattle, WA', 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80', 'Dec 19, 11:30 AM', '$140', ARRAY['Autoimmune Specialist', 'Gut Health']);
